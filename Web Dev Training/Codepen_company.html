@@ -1,0 +1,148 @@
+<!======= I have 2 problems============
+  1-The big textarea is very small.
+  2-The facebook,twitter and Linkedin logos can't be figured.
+  3-I had to determine a height for the (AboutUs) div(It's supposed to be the wrapper and after fixing the float problems,It's not exist).
+  5-The (border) div doesn't work.
+  Note: I think problems 3,5 have the same solution.
+  ======================================>
+<!doctype html>
+<html>
+    <head>
+         <meta charset="utf-8">
+         <meta http-equiv="X-UA-compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <title>Mazaia Company</title>
+         <link rel="stylesheet" href="css/bootstrap.min.css">
+         <link rel="stylesheet" href="css/Codepen_company.css">
+         <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+    </head>
+    <body>
+         <div class="main_header"> 
+               <header>
+                     <h2 class="companyName">COMPANY NAME</h2>
+                   <nav id="navbar">
+                    
+                     <ul>
+                         <li><a href="#" class="active">HOME</a></li>
+                         <li><a href="#">OUR SERVICES</a></li>
+                         <li><a href="#">THE TEAM</a></li>
+                         <li><a href="#">GET IN TOUCH</a></li>
+                     </ul>
+                    
+                   </nav>
+               </header>
+                      <img src="pictures/octavector-stock2.jpg" alt="the header image">
+                      <h1>A FANTASTIC AND BOLD OPENING MESSAGE</h1>
+                      <p>Here is a sentence about our company values</p>
+          </div>
+        <div id="main">
+             <div class="AboutUs">
+                       <!This is problem no.2 (If you inspect,You'll find that it's not the wrapper of (AboutUs1,AboutUs2))>
+                        <button id="about_us">ABOUT US</button>
+                       <div class="clear-fix"></div>
+              
+                    <div class="AboutUs1">
+                         <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h1>
+                         <div class="border"></div>
+                         <section>
+                             Lorem ipsum dolor sit amet, <a href="#">A quality web link</a> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                         </section>
+                   </div>
+                   <div class="AboutUs2">
+                        <img src="pictures/octavector-stock2.jpg" alt="picture with a quote">
+                        <p>A meaningful image caption will go here</p>
+                   </div>
+              
+                 </div>
+            <div class="clear-fix"></div>
+            <div class="OurServices">
+                     <button id="our_services">OUR SERVICES</button>              
+                     <div class="OurServices2">
+                          <div class="subService">
+                              <p>"Lorem ipsum dolor sit amet, here is a highlight, wow! sed do eiusmod tempor incididunt ut."</p>
+                          </div>
+                    <div class="subService">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              </p>
+                     </div>
+                    <div class="subService">
+                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                               </p>
+                     </div>
+                     <div class="subService">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                          </p>
+                       </div>   
+                 </div>
+               </div>
+            <div class="TheTeam">
+                 <button id="the_team">THE TEAM</button>
+                 <div id="TheTeam2">
+                      <div class="subTeam">
+                           <img src="pictures/octavector-stock2.jpg" alt="Team member photo">
+                           <h3>STAFF NAME</h3>
+                           <p>Position / job Title</p>
+                        </div>
+                      <div class="subTeam">
+                           <img src="pictures/octavector-stock2.jpg" alt="Team member photo">
+                           <h3>STAFF NAME</h3>
+                           <p>Position / job Title</p>
+                        </div>
+                      <div class="subTeam">
+                           <img src="pictures/octavector-stock2.jpg" alt="Team member photo">
+                           <h3>STAFF NAME</h3>
+                           <p>Position / job Title</p>
+                        </div>
+                      <div class="subTeam">
+                           <img src="pictures/octavector-stock2.jpg" alt="Team member photo">
+                           <h3>STAFF NAME</h3>
+                           <p>Position / job Title</p>
+                        </div>                
+                </div>            
+              </div>
+            <div id="GetInTouch">
+                 <button id="get_in_touch">GET IN TOUCH</button>
+                 <div id="getInTouch1">
+                      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      </p>
+                    </div>
+                 <div id="getInTouch2">
+                     <h3>NAME</h3>
+                     <input class="form-control form-control-lg" type="text" placeholder="name">
+                     <h3>E-MAIL</h3>
+                     <input class="form-control form-control-lg" type="text" placeholder="e-mail">
+                     <h3>MESSAGE</h3>
+                     <textarea class="form-control" id="exampleFormControlTextarea5" rows="3"></textarea>
+                     <button id="send_your_message">Send your message</button>
+                    </div>
+                </div>
+            <footer>
+                    <div id="contact">
+                         <h1>contact</h1>
+                         <p>123 Street Name</p>
+                          <p>Region</p>
+                          <p>The County/State</p>
+                          <p>Country</p>
+                          <a href="https://www.google.com">hello@ouremail.com</a>
+                       </div>
+                    <div id="links">
+                         <h1>links</h1>
+                         <ul>
+                            <li><a href="#">Terms and onditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                         </ul>
+                      </div>
+                    <div id="Social">
+                         
+                
+                
+                      </div>
+               </footer>
+        </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Codepen_company.js"></script>    
+    </body>
+</html>

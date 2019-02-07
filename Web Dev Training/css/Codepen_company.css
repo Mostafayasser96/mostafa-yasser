@@ -1,0 +1,105 @@
+/*=============main header===========*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*-------------This is problem no.4------------*/
+.clear-fix{
+    clear: both;
+}
+/*----------------------------------------------*/
+/*====================================*/
+/*=======================================about us================================*/
+#about_us{
+    display: block;
+    margin-left: 550px;
+    background-color: white;
+    border: none;
+    border-bottom: solid 1px #F012BE;
+    font-size: 2em;
+    letter-spacing: 4px;
+    color: #F012BE;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+ 
+
+div.AboutUs1, div.AboutUs2{
+    width: 50%;
+    float: left;
+    height: inherit;
+}
+.AboutUs2 img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.AboutUs2 p{
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 30px;
+}
+.AboutUs1 h1{
+    font-family: 'Archivo Black', sans-serif;
+    margin-bottom: 40px;
+}
+/*--------This part is related to problem no.5----------*/
+.border{
+    width: 60px;
+    height: 20px;
+    color: #F012BE;
+    border-top-right-radius: 8px;
+    margin-bottom: 40px;
+}
+/*-------------------------------------------------------*/
+.AboutUs1 section{
+    font-size: 20px;
+}
+/*=================================The end of About us=============================*/
+.OurServices{
+    background-color: #064789;
+    margin-top: 30px;
+}
+
+#our_services{
+    display: block;
+    width: 150px;
+    
+    margin-left: 550px;
+    background-color: inherit;
+    border: none;
+    border-bottom: solid 1px #F012BE;
+    font-size: 2em;
+    letter-spacing: 4px;
+    color: #F012BE;
+    font-weight: 700;
+    margin-bottom: 60px;
+    padding-top: 90px;
+}
+.subService{
+    float: left;
+    width: 24%;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
